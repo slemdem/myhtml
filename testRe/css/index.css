@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 3rem;
+    width: 100%;
+    background: rgb(0, 255, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .main{
+    width: 100%;
+    background: rgb(28, 104, 219);
+    color: white;
+    text-align: center;
+}
+
+.menu .main h1{
+    padding: 14px 20px;
+}
+
+.menu .main p{
+    padding: 14px 20px;
+}
+
+.menu .sub{
+    width: 100%;
+    background: #333;
+    display: flex;
+
+}
+
+.menu .sub a{
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+section .leftSide{
+    width: 40%;
+    background-color: #eee;
+    text-align: left;
+    
+    position: relative;
+}
+
+section .leftSide h2{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+section .leftSide h3{
+    padding-bottom: 15px;
+}
+
+section .leftSide .pytClass{
+    margin: 15px;
+}
+
+section .leftSide .pytClass img{
+    height: 250px;
+}
+
+#imgpyt{
+    width: 100%;
+    object-fit: cover;
+}
+
+section .leftSide .jspClass{
+    margin: 15px;
+}
+
+section .leftSide .jspClass img{
+    height: 250px;
+}
+
+#imgjsp{
+    width: 100%;
+    object-fit: cover;
+}
+
+section .rightSide{
+    width: 60%;
+    text-align: left;  
+}
+
+section .rightSide h2{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+section .rightSide .classroom{
+    margin: 15px;
+}
+
+section .rightSide .classroom h3{
+    padding-bottom: 15px;
+}
+
+
+#imgcls{
+    width: 100%;
+    object-fit: cover;
+}
+
+footer{
+    clear: both;
+    height: 170px;
+    background-color: gray;
+    text-align: center;
+}
+
+footer h2{
+    padding: 30px;
+
+}
+
+@keyframes fade{
+        0% {opacity: 1;}
+        25% {opacity: 0.75;}
+        50% {opacity: 0.5;}
+        75% {opacity: 0.25;}
+        100% {opacity: 0;}
+}

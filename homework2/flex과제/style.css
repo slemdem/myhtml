@@ -1,0 +1,40 @@
+.container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero{
+    height: 400px;
+    background: linear-gradient(to left, black, white);
+    text-align: center;
+    padding-top: 7%;
+    color: white;
+}
+.heading{
+    top: 200px;
+    display: block;
+    width: 55%;
+    margin: auto;
+}
+.heading h1{
+    font-size: 30px;
+}
+.heading span{
+    color: red;
+    display: block;
+}
+
+.inner{
+    display: flex;
+    flex-direction: center;
+}
+
+.inner>div{
+    display: block;
+    margin: 2%;
+    flex: 1;
+}
+.inner{
+    text-align: left;
+}

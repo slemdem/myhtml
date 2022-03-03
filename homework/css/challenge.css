@@ -1,0 +1,66 @@
+body{
+    background:gainsboro;
+}
+
+header{
+    background-color: white;
+    height: 80px;
+    text-align: right;
+    padding: 30px 30px 0px;
+    font-size: 20px;
+    
+}
+header a{
+    color: gray;
+    text-decoration: none;
+}
+
+#image{
+    height: 500px;
+    background : url("http://css3.zerois.net/images/pic1.jpg") no-repeat ;
+    
+}
+#sentence{
+    position:relative;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    top: 20%;
+    left: 50%;
+    padding-top: 10px;
+    height: 150px;
+    width: 40%;
+    text-align: center;
+}
+
+#content{
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+p{
+    text-align :left;
+}
+.num{
+    display: inline-block;
+    width: 200px;
+    margin: 5%;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: white;
+    height: 80px;
+    text-align: right;
+    padding: 30px 30px 0px;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="fas fa-gamepad" id="icon"></div>
+        <h1 id="title">가챠 시뮬레이터 위키</h1>
+        <div id="icon">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-user"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="list pop">
+            <p class="fas fa-angle-right"> 인기 게임</p>
+            <ul >
+                <li>원신</li>
+                <li>쿠키런 킹덤</li>
+                <li>명일방주</li>
+            </ul>
+        </div>
+        <div class="list acc">
+            <p class="fas fa-angle-right"> 나의 게임</p>
+            <ul id="열고닫는 화살표 버튼">
+                <li>게임 1</li>
+                <li>게임 2</li>
+                <li>게임 3</li>
+            </ul>
+        </div>
+        <div class="navSerch">
+            <input type="text" class="serchbox">
+            <div class="fas fa-search" id="search-btn"></div>
+        </div>
+    </nav>
+    
+    <section class="main">
+        <div class="select">
+            <div class="title">
+                <p> 게임이름</p>
+                <select name="bannerSelect" id="bannerSelect">
+                    <option value="arknight1">시&사가 픽업</option>
+                    <option value="arknight2">쏜즈 픽업</option>
+                </select>
+                <div class="banner">
+                    <div class="bannerSelected"></div>
+                </div>
+            </div>
+        </div>
+        <div class="runresult">
+            <div class="RR 1">결과1</div>
+            <div class="RR 2">결과2</div>
+            <div class="RR 3">결과3</div>
+            <div class="RR 4">결과4</div>
+            <div class="RR 5">결과5</div>
+            <div class="RR 6">결과6</div>
+            <div class="RR 7">결과7</div>
+            <div class="RR 8">결과8</div>
+            <div class="RR 9">결과9</div>
+            <div class="RR 10">결과10</div>
+        </div>
+        <div class="resultLine">
+            <div class="btn">
+                <div class="runbtn">
+                    <button>1회</button>
+                    <button>10회</button>
+                </div>
+                <button id="clear">내역 초기화</button>
+            </div>
+            <table class="expectPer">
+                <tr>
+                    <th colspan="3">결과값</th>
+                </tr>
+                <tr>
+                    <th>UR</th>
+                    <td>0 개</td>
+                    <td>0 %</td>
+                </tr>
+                <tr>
+                    <th>SSR</th>
+                    <td>0 개</td>
+                    <td>0 %</td>
+                </tr>
+                <tr>
+                    <th>SR</th>
+                    <td>0 개</td>
+                    <td>0 %</td>
+                </tr>
+                <tr>
+                    <th>R</th>
+                    <td>0 개</td>
+                    <td>0 %</td>
+                </tr>
+
+            </table>
+            <table class="realPer">
+                <tr>
+                    <th colspan="3">기댓값</th>
+                </tr>
+                <tr>
+                    <th>UR</th>
+                    <td>0 개</td>
+                    <td>0 %</td>
+                </tr>
+                <tr>
+                    <th>SSR</th>
+                    <td>0 개</td>
+                    <td>0 %</td>
+                </tr>
+                <tr>
+                    <th>SR</th>
+                    <td>0 개</td>
+                    <td>0 %</td>
+                </tr>
+                <tr>
+                    <th>R</th>
+                    <td>0 개</td>
+                    <td>0 %</td>
+                </tr>
+            </table>
+            <div class="linkbtn">
+                <div class="fas fa-pen-square" id="search-btn"></div>
+                <div class="fas fa-list-alt" id="search-btn"></div>
+            </div>
+        </div>
+
+        <div class="resultTotal">
+            <h4>누적 결과</h4>
+            <div class="totalList">
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0</p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <a href="">top</a>
+    </footer>
+
+</body>
+</html>
